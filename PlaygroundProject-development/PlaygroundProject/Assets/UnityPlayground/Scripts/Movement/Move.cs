@@ -22,13 +22,13 @@ public class Move : Physics2DObject
 	private float moveHorizontal;
 	private float moveVertical;
 
-    Animator animator;
+   
+ Animator animator;
 
         private void Start()
     {
         animator = GetComponentInChildren<Animator>();
     }
-
 
     // Update gets called every frame
     void Update ()
